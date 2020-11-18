@@ -3,7 +3,7 @@
 **Assignment 6: UCS538**
 
 
-Submitted By: **DIVYAM 101803128**
+Submitted By: **DIVYAM JAIN-101803128**
 
 ***
 
@@ -23,9 +23,13 @@ TOPSIS-Divyam-101803128 can be run as in the following example:
 
 
 
-### In Command Prompt
+### Python Script
 ```
->> topsis inputfile.csv "1,1,1,1" "+,+,-,+" result.csv
+from topsis_101803128.topsis import CalcTopsisScore
+filename = "input.csv"
+weight = "1,1,1,2"
+impact = "+,+,-,+"
+CalcTopsisScore(filename, weight, impact )
 ```
 <br>
 
