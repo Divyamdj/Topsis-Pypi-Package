@@ -12,7 +12,7 @@ README = (HERE / "README.md").read_text()
 setup(
     name="topsis_101803128",  # How you named your package folder (MyLib)
     packages = ['topsis_101803128'],   # Chose the same as "name"
-    version="1.3",   # Start with a small number and increase it with every change you make
+    version="1.4",   # Start with a small number and increase it with every change you make
     license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description="A Python package implementing TOPSIS technique.",   # Give a short description about your library
     long_description=README,
@@ -20,7 +20,7 @@ setup(
     author="Divyam Jain",   # Type in your name
     author_email="divyamvswild@gmail.com",  # Type in your E-Mail
     url="https://github.com/Divyamdj/Topsis-Pypi-Package",    # Provide either the link to your github or to your website
-    # download_url="https://github.com/Divyamdj/Topsis-Pypi-Package/archive/v1.2.tar.gz",
+    download_url="https://github.com/Divyamdj/Topsis-Pypi-Package/archive/v1.4.tar.gz",
     keywords=['Topsis', 'Topsis Ranking'],    # Keywords that define your package best
     classifiers=[
         'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
