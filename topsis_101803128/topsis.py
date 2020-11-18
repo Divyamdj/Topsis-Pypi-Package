@@ -39,7 +39,7 @@ def euclidean_distance(val):
     worst_dist.append(s_minus)
 
 
-def CalculateTopsisScore(file, weight, impact):
+def CalcTopsisScore(file, weight, impact):
     outputName = ".".join(file.split(".")[:-1])
     impact = [x.strip() for x in impact.split(",")]
     weight = [x.strip() for x in weight.split(",")]

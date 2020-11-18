@@ -1,1 +1,1 @@
-from .topsis import CalculateTopsisScore
+from .topsis import CalcTopsisScore
